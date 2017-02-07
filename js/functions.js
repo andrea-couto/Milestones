@@ -11,10 +11,6 @@ $(window).scroll(function(){
       'transform' : 'translate(0px, '+ wScroll /1.5 +'%)'
     });
 
-    // $('.back-bird').css({
-    //   'transform' : 'translate(0px, '+ wScroll /4 +'%)'
-    // });
-
     var op = (wScroll - $('.hero').height() + 400) / (wScroll / 1.5);
 
     $('.BB-windowTint').css({'opacity': op});
